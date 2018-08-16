@@ -28,6 +28,8 @@ default['smart_db_backup']['cron_hour'] = '02'
 default['smart_db_backup']['cron_weekday'] = '*'
 default['smart_db_backup']['cron_month'] = '*'
 
+default['smart_db_backup']['sock_paths'] = ''
+
 # Elasticserach specific
 default['smart_db_backup']['elasticsearch']['uri'] = 'http://localhost:9200'
 default['smart_db_backup']['elasticsearch']['user'] = ''
